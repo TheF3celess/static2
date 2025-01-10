@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="ppck-ver" content="ffb6ad3935af5e99f7cb1ca4c2126135" />
+    <title>Email Finder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff5733;
+        }
+
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+
+        header .account-actions {
+            display: flex;
+            gap: 20px;
+        }
+
+        header .account-actions a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            padding: 8px 16px;
+            border-radius: 4px;
+            background-color: #ff5733;
+            font-weight: bold;
+            text-align: center;
+            display: inline-block;
+        }
+
+        header .account-actions a.login {
+            background-color: transparent;
+            color: #ff5733;
+            border: 1px solid #ff5733;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 82px); /* header + footer heights */
+            text-align: center;
+        }
+
+        main h1 {
+            font-size: 32px;
+            color: #ff5733;
+            margin-bottom: 20px;
+        }
+
+        main p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: #555;
+        }
+
+        .email-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .email-form input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .email-form button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #ff5733;
+            color: white;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #fff;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer a {
+            color: #ff5733;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">hunter</div>
+        <nav>
+            <a href="#">Product</a>
+            <a href="#">Pricing</a>
+            <a href="#">Resources</a>
+            <a href="#">Company</a>
+        </nav>
+        <div class="account-actions">
+            <a href="#" class="login">Log in</a>
+            <a href="#" class="create-account">Create an account</a>
+        </div>
+    </header>
+    <main>
+        <h1>Find the verified email address of any professional.</h1>
+        <p>Email Finder</p>
+        <form class="email-form">
+            <input type="text" placeholder="Enter a full name...">
+            <input type="text" placeholder="@ company.com">
+            <button type="button">Find</button>
+        </form>
+        <p><em>Not inspired? Try it with François from hunter.io</em></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 hunter. Not affiliated with <a href="https://hunter.io">Hunter.io</a></p>
+    </footer>
+</body>
+</html>
